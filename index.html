@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Météo</title>
+  </head>
+  <body>
+
+<header>
+
+  <!-- formulaire de recherche-->
+
+  <nav class="navbar navbar-light bg-light shadow-sm">
+    <div class="container ">
+      <form id="valider" class="d-flex justify-content-around row d-grid gap-3 col-10 col-sm-7 col-md-5 col-lg-4 mx-auto">
+        <img src="images/logo.png" class="d-block logo" alt="logo meteo">
+        <input id="ville" class="form-control shadow-sm bg-body rounded " type="search" placeholder="Entrez une ville" aria-label="Search">
+        <button class="btn btn-outline-success col-3 mb-2  shadow-sm" type="submit">Entrer</button>
+      </form>
+    </div>
+  </nav>
+</header>
+
+<main id="main" class="bg-transparent"></main>
+
+
+
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="javascript/meteo.js"></script>
+
+  </body>
+</html>

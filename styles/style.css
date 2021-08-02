@@ -1,0 +1,18 @@
+.logo{
+    width: 40%;
+}
+
+body{
+    background-image: url('../images/point.png');
+}
+
+.icon{
+    width: 20%;
+}
+
+.metli{
+
+background-image: url(../images/ciel.jpg);
+background-position:top;
+background-size: cover;
+}
